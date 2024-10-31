@@ -1,0 +1,22 @@
+﻿<Window x:Class="Variant3.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Variant3"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="527,342,0,0" VerticalAlignment="Top" Height="52" Width="220" FontSize="36" Click="Button_Click" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,39,0,0" TextWrapping="Wrap" Text="Radius (Радиус)" VerticalAlignment="Top" Height="43" Width="251" FontFamily="Times New Roman" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,143,0,0" TextWrapping="Wrap" Text="Height (Высота)" VerticalAlignment="Top" Height="43" Width="251" FontFamily="Times New Roman" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,256,0,0" TextWrapping="Wrap" Text="Density (Плотность)" VerticalAlignment="Top" Height="43" Width="317" FontFamily="Times New Roman" FontSize="36"/>
+        <TextBox x:Name="Radius" HorizontalAlignment="Left" Margin="50,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Height="51" FontSize="36" FontFamily="Times New Roman"/>
+        <TextBox x:Name="Height" HorizontalAlignment="Left" Margin="50,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Height="51" FontSize="36" FontFamily="Times New Roman"/>
+        <TextBox x:Name="Density" HorizontalAlignment="Left" Margin="50,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Height="51" FontSize="36" FontFamily="Times New Roman"/>
+        <CheckBox x:Name="Volume" Content="volume (Объём)" HorizontalAlignment="Left" Margin="506,39,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="36" Height="37" Width="262"/>
+        <CheckBox x:Name="Mass" Content="mass (Масса)" HorizontalAlignment="Left" Margin="506,92,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="36" Height="40" Width="236"/>
+        <Button Background="Black" Foreground="Yellow" Content="Найти" HorizontalAlignment="Left" Margin="544,165,0,0" VerticalAlignment="Top" Height="86" Width="186" FontFamily="Times New Roman" FontSize="36" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
